@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import logo from "../assets/images/logo-transparent.png"
 import NavbarLink from './NavbarLink.vue';
+import portfolio from "../assets/files/portfolio.pdf"
 
 const menuOpen = ref(false)
 
@@ -10,11 +11,6 @@ const links = ref([
     title: "Inicio",
     active: true,
     href: "/"
-  },
-  {
-    title: "Portafolio",
-    active: false,
-    href: "/portafolio"
   },
   {
     title: "Contacto",
@@ -76,6 +72,12 @@ const links = ref([
               <NavbarLink v-for="link in links" :active="link.active">
                 {{ link.title }}
               </NavbarLink>
+              <a :href="portfolio" target="_blank" class=" block rounded-sm px-4 py-2 text-base shadow-md" :class="{
+                'bg-minsk-900 text-white font-medium': active,
+                'bg-white text-storm-gray-900 hover:bg-minsk-900 hover:text-white': !active
+              }" aria-current="page">
+                Portafolio
+              </a>
             </div>
           </div>
         </div>
