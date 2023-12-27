@@ -9,19 +9,24 @@ const menuOpen = ref(false)
 const links = ref([
   {
     title: "Inicio",
-    active: true,
+    active: false,
     href: "/"
   },
+  // {
+  //   title: "Nuestros servicios",
+  //   active: false,
+  //   href: "#servicios"
+  // },
   {
     title: "Contacto",
     active: false,
-    href: "/contacto"
+    href: "#contacto"
   },
-  {
-    title: "Blog",
-    active: false,
-    href: "/blog"
-  },
+  // {
+  //   title: "Blog",
+  //   active: false,
+  //   href: "/blog"
+  // },
 ]);
 
 </script>
@@ -69,7 +74,7 @@ const links = ref([
           </a>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-2">
-              <NavbarLink v-for="link in links" :active="link.active">
+              <NavbarLink v-for="link in links" :link="link">
                 {{ link.title }}
               </NavbarLink>
               <a :href="portfolio" target="_blank" class=" block rounded-sm px-4 py-2 text-base shadow-md" :class="{
@@ -88,7 +93,7 @@ const links = ref([
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="md:hidden bg-storm-gray-200" id="mobile-menu" v-show="menuOpen">
       <div class="space-y-1 px-2 pb-3 pt-2 ">
-        <NavbarLink v-for="link in links" :active="link.active">
+        <NavbarLink v-for="link in links" :link="link">
           {{ link.title }}
         </NavbarLink>
       </div>

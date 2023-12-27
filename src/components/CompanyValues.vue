@@ -30,23 +30,43 @@ import gallery6 from "../assets/images/6.jpg"
                 class="relative grid place-content-center justify-center bg-hillary-500 px-12 py-24 md:px-16 md:pt-4 md:pb-16 ">
 
                 <div
-                    class="hidden md:block absolute -top-20 right-0 h-60 w-32 bg-transparent bg-[radial-gradient(#262626_2px,transparent_1px)] [background-size:16px_16px]">
+                    class="hidden md:block absolute -top-40 right-0 h-60 w-32 bg-transparent bg-[radial-gradient(#262626_2px,transparent_1px)] [background-size:16px_16px]">
                 </div>
                 <div
                     class="hidden md:block absolute -bottom-16 left-10 h-32 w-80 bg-transparent bg-[radial-gradient(#262626_2px,transparent_1px)] [background-size:16px_16px]">
                 </div>
-                <p class="text-white text-4xl lg:text-6xl font-bold text-center md:text-end">Instalación y mantenimiento de
-                    sistemas eléctricos</p>
-                <p class="text-2xl font-semibold text-minsk-900 text-center mb-2">¡Aquí va un mensaje de bienvenida a
-                    todos!
+                <p class="mb-6 text-white capitalize text-4xl lg:text-6xl font-bold text-center md:text-end">
+                    Filosofía Empresarial
                 </p>
-                <p class="text-storm-gray-700 text-center">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Animi
-                    iure cum
-                    minima quidem delectus rerum
-                    non. Aspernatur ipsum unde sapiente esse, qui sunt debitis quam, eos maiores laudantium sit fuga!
-                </p>
+                <div class="mb-10">
+                    <p class="text-2xl font-semibold text-minsk-800 mb-2 text-left">Misión</p>
+                    <p class="text-storm-gray-100 text-justify">
+                        Nuestra misión es satisfacer las
+                        necesidades de nuestros clientes
+                        ofreciendo soluciones innovadoras y
+                        sostenibles a largo plazo.
+                        Nos comprometemos a brindar
+                        servicios de alta calidad, superando
+                        sus expectativas y generando un
+                        impacto positivo en sus operaciones.
+                    </p>
+                </div>
+                <div class="left">
+                    <p class="text-2xl font-semibold text-minsk-800  mb-2 text-right">Visión</p>
+                    <p class="text-storm-gray-100 text-justify">
+                        Nuestra visión es consolidarnos
+                        como una empresa líder en el
+                        sector, destacando por nuestra
+                        organización, experiencia y
+                        profesionalismo.
+                        Aspiramos a ser altamente
+                        valorados por nuestros clientes,
+                        logrando su plena satisfacción y
+                        siendo seleccionados para
+                        proyectos de gran magnitud y
+                        complejidad técnica.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

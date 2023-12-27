@@ -38,7 +38,9 @@ import PrimaryButton from "./PrimaryButton.vue";
                                 locales como en distintos estados de la república.
                             </p>
                             <div class="w-full flex justify-center">
-                                <PrimaryButton>¡Contactanos!</PrimaryButton>
+                                <a href="#contacto">
+                                    <PrimaryButton>¡Contactanos!</PrimaryButton>
+                                </a>
                             </div>
                         </div>
                     </div>

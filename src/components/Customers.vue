@@ -86,7 +86,9 @@ const customers = ref([
                     diversos proyectos eléctricos.
                 </p>
                 <div class="w-full flex justify-center">
-                    <PrimaryButton>¡Contactanos!</PrimaryButton>
+                    <a href="#contacto">
+                        <PrimaryButton>¡Contactanos!</PrimaryButton>
+                    </a>
                 </div>
             </div>
         </div>

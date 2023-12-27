@@ -30,9 +30,8 @@ defineProps({
                 </div>
                 <div class="max-w-2xl mx-auto">
                     <p class="text-white text-4xl font-semibold text-center mb-6">Nuestras redes sociales</p>
-                    <p class="text-storm-gray-300 text-lg text-center mb-2">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni unde labore minus in blanditiis earum consequatur voluptatum odit vel
-                        corrupti deserunt soluta dolorum optio delectus ducimus, itaque sit repellendus ea!
+                    <p class="text-storm-gray-300 text-lg text-center">
+                        ¡Siguenos en nuestras redes sociales para ver nuestros trabajos más recientes!
                     </p>
                 </div>
 
