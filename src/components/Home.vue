@@ -17,8 +17,8 @@ import ContactForm from "./ContactForm.vue";
     <CompanyValues />
 
     <!-- Instagram Posts Carousel -->
-    <InstagramPostsCarousel class="block md:hidden" :slides-per-view="1" />
-    <InstagramPostsCarousel class="hidden md:block lg:hidden" :slides-per-view="2" />
+    <InstagramPostsCarousel class="block md:hidden min-h-[160vh]" :slides-per-view="1" />
+    <InstagramPostsCarousel class="hidden md:block lg:hidden min-h-[140vh]" :slides-per-view="2" />
     <InstagramPostsCarousel class="hidden lg:block" :slides-per-view="3" />
 
 

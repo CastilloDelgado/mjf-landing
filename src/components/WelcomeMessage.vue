@@ -13,7 +13,7 @@ import PrimaryButton from "./PrimaryButton.vue";
                 class="grid md:place-content-center pt-4 lg:pb-16 bg-gradient-to-r from-minsk-950 from-20% to-minsk-100/0 to-100%">
                 <div class="w-full flex justify-center md:justify-end lg:pt-24">
                     <div
-                        class="relative grid grid-cols-1 place-content-center px-6 w-full h-[80vh] md:h-fit bg-storm-gray-100 md:w-3/4 md:py-8 lg:py-8 2xl:px-8 2xl:py-12 md:rounded-md shadow-md">
+                        class="relative grid grid-cols-1 place-content-center px-6 w-full min-h-[80vh] md:h-fit bg-storm-gray-100 md:w-3/4 py-12 md:py-8 lg:py-8 2xl:px-8 2xl:py-12 md:rounded-md shadow-md">
                         <div
                             class="absolute -bottom-10 -left-32 h-32 w-40 bg-transparent bg-[radial-gradient(#A8A8A8_2px,transparent_1px)] [background-size:16px_16px]">
                         </div>
@@ -46,7 +46,7 @@ import PrimaryButton from "./PrimaryButton.vue";
                     </div>
                 </div>
                 <img :src="image1"
-                    class="w-full flex justify-center md:justify-end md:hidden h-[60vh] md:h-[80vh] object-cover" />
+                    class="w-full flex justify-center md:justify-end md:hidden h-[80vh] md:h-[80vh] object-cover" />
                 <div>
                 </div>
 

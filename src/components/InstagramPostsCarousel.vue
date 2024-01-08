@@ -19,7 +19,7 @@ defineProps({
 
 
 <template>
-    <div class="bg-minsk-950 min-h-[150vh] md:min-h-[100vh] py-24 md:py-0 md:h-auto">
+    <div class="bg-minsk-950 min-h-[180vh] md:min-h-[180vh] py-24 md:py-0 grid place-content-center py-auto">
         <div class="max-w-7xl py-0 lg:py-24 mx-auto grid grid-cols-1 place-content-center px-6">
             <div class="relative max-w-7xl w-full mx-auto ">
                 <div
