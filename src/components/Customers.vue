@@ -81,9 +81,9 @@ const customers = ref([
             </div>
             <div class="max-w-xl mx-auto text-storm-gray-700 ">
                 <p class="text-xl text-center mt-12 mb-8">
-                    Con una destacada trayectoria en el mercado, hemos
-                    adquirido una amplia experiencia brindando soluciones a
-                    diversos proyectos eléctricos.
+                    Como líderes confiables en el sector, nos
+                    enorgullece ofrecer soluciones profesionales y satisfacer las
+                    necesidades de nuestros clientes en cada etapa de sus proyectos.
                 </p>
                 <div class="w-full flex justify-center">
                     <a href="#contacto">

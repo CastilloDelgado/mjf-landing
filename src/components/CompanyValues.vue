@@ -40,7 +40,7 @@ import gallery6 from "../assets/images/6.jpg"
                 </p>
                 <div class="mb-10">
                     <p class="text-2xl font-semibold text-minsk-800 mb-2 text-left">Misión</p>
-                    <p class="text-storm-gray-100 text-justify">
+                    <p class="text-white text-justify text-lg">
                         Nuestra misión es satisfacer las
                         necesidades de nuestros clientes
                         ofreciendo soluciones innovadoras y
@@ -53,7 +53,7 @@ import gallery6 from "../assets/images/6.jpg"
                 </div>
                 <div class="left">
                     <p class="text-2xl font-semibold text-minsk-800  mb-2 text-right">Visión</p>
-                    <p class="text-storm-gray-100 text-justify">
+                    <p class="text-white text-justify text-lg">
                         Nuestra visión es consolidarnos
                         como una empresa líder en el
                         sector, destacando por nuestra
