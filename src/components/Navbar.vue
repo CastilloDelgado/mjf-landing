@@ -12,21 +12,11 @@ const links = ref([
     active: false,
     href: "/"
   },
-  // {
-  //   title: "Nuestros servicios",
-  //   active: false,
-  //   href: "#servicios"
-  // },
   {
     title: "Contacto",
     active: false,
     href: "#contacto"
   },
-  // {
-  //   title: "Blog",
-  //   active: false,
-  //   href: "/blog"
-  // },
 ]);
 
 </script>
