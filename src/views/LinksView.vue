@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import logo from "../assets/images/logo-text-transparent.png"
+import portfolio from "../assets/files/portfolio.pdf"
 
 const links = ref([
     {
@@ -15,28 +16,28 @@ const links = ref([
         id: 2,
         image: "",
         title: "Envianos un correo",
-        externalLink: "https://google.com",
+        externalLink: "mailto:contacto@mjf-se.com",
         icon: 'fa-mail-bulk',
     },
     {
         id: 3,
         image: "",
         title: "Contactanos por Whatsapp",
-        externalLink: "https://google.com",
+        externalLink: "https://wa.me/523339672022",
         icon: 'fa-whatsapp',
     },
     {
         id: 4,
         image: "",
         title: "Descarga nuestro Portafolio",
-        externalLink: "https://google.com",
+        externalLink: portfolio,
         icon: 'fa-folder',
     },
     {
         id: 5,
         image: "",
         title: "Instagram",
-        externalLink: "https://google.com",
+        externalLink: "https://www.instagram.com/mjfsolucioneselectricas/",
         icon: 'fa-instagram',
     },
 ])
